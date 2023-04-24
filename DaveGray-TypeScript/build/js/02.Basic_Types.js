@@ -20,3 +20,4 @@ userId = 12;
 const sum = (a, b) => {
     return a + b;
 };
+console.log();
