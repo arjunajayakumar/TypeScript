@@ -6,7 +6,7 @@ import Section from "./Components/Section";
 import List from "./Components/List";
 
 function App() {
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState<number>(1);
   return (
     <>
       <Heading title={"Hello"} />
