@@ -7,6 +7,7 @@ import {
   useMemo,
   useRef,
 } from "react";
+import Counter from "./Counter";
 
 interface User {
   id: number;
@@ -45,8 +46,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>{count}</h1>
-      <button onClick={addTwo}></button>
+      {/* <h1>{count}</h1>
+      <button onClick={addTwo}></button> */}
+      <Counter>{(num: number) => <>Current Count: {num}</>}</Counter>
     </div>
   );
 }
